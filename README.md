@@ -18,10 +18,6 @@ Firmware para ESP32 que lee datos de sensores y los envía a la API. Soporta mú
   - LDR (Luz)
   - MQ-137 (Amoniaco)
   - MQ-135 (CO2)
-- Resistencias:
-  - 10kΩ para LDR
-  - 10kΩ para MQ-137
-  - 10kΩ para MQ-135
 
 ## Conexiones
 
