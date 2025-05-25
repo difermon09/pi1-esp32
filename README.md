@@ -9,6 +9,7 @@ Firmware para ESP32 que lee datos de sensores y los envía a la API. Soporta mú
 - Luz (LDR)
 - Amoniaco (MQ-137)
 - CO2 (MQ-135)
+- RFID (RC522)
 
 ## Requisitos de Hardware
 
@@ -18,6 +19,7 @@ Firmware para ESP32 que lee datos de sensores y los envía a la API. Soporta mú
   - LDR (Luz)
   - MQ-137 (Amoniaco)
   - MQ-135 (CO2)
+  - RC522 (RFID)
 
 ## Conexiones
 
@@ -40,6 +42,15 @@ Firmware para ESP32 que lee datos de sensores y los envía a la API. Soporta mú
 - VCC -> 5V
 - OUT -> GPIO 36
 - GND -> GND
+
+### RC522 (RFID)
+- VCC -> 3.3V
+- RST -> GPIO 22
+- GND -> GND
+- MISO -> GPIO 19
+- MOSI -> GPIO 23
+- SCK -> GPIO 18
+- SDA -> GPIO 21
 
 ## Instalación
 
